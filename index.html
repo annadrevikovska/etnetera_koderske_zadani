@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- AJAX API script -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Normalize CSS -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<!-- Slick plugin CSS -->
+		<link rel="stylesheet" href="js/slick/slick.css"/>
+		<!-- Tipped plugin CSS -->
+		<link rel="stylesheet" href="js/tipped/css/tipped/tipped.css">
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+		<!-- Fonts CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/main.css">
+		<title>Etnetera a.s. | Fronty u kávovaru</title>
+	</head>
+	<body>
+		<div class="container"><!-- container -->
+			<div class="navigation"> <!-- navigation -->
+				<nav>
+					<span><img src="img/logo.png" alt="Logo Etnetery"></span>
+					<ul>
+						<li><a href="index.html" class="active nav-link">Domů</a></li>
+						<li><a href="#kdo-jsme" class="nav-link">Kdo jsme</a></li>
+						<li><a href="#co-delame" class="nav-link">Co děláme</a></li>
+						<li><a href="#reference" class="nav-link">Reference</a></li>
+						<li><a href="#prace-u-nas" class="nav-link">Práce u nás (4)</a></li>
+						<li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+					</ul>
+				</nav>
+			</div> <!-- !navigation -->
+			<div id="carousels"> <!-- carousels -->
+				<div class="slick"> <!-- slick -->
+					<div class="carousel"> <!-- carousel1 -->
+						<div class="slide"> <!-- slide1 -->
+							<h1>Mobile development</h1>
+							<p>
+								Efficiently unleash cross-media information without cross-media value.<br> Quickly maximize timely deliverables for real-time schemas.
+							</p>
+							<p>
+								Dramatically maintain clicks-and-mortar solutions without functional<br> solutions.
+							</p>
+							<a href="#" class="button">Více o mobile</a>
+						</div> <!-- !slide1 -->
+					</div> <!-- !carousel1 -->
+				 	<div class="carousel"> <!-- carousel2 -->
+						<div class="slide"> <!-- slide2 -->
+							<h1>Mobile development</h1>
+							<p>
+								Efficiently unleash cross-media information without cross-media value.<br> Quickly maximize timely deliverables for real-time schemas.
+							</p>
+							<p>
+								Dramatically maintain clicks-and-mortar solutions without functional<br> solutions.
+							</p>
+							<a href="#" class="button">Více o mobile</a>
+						</div> <!-- slide2 -->
+					</div> <!-- carousel2 -->
+					<div class="carousel"> <!-- carousel3 -->
+						<div class="slide"> <!-- slide3 -->
+							<h1>Mobile development</h1>
+							<p>
+								Efficiently unleash cross-media information without cross-media value.<br> Quickly maximize timely deliverables for real-time schemas.
+							</p>
+							<p>
+								Dramatically maintain clicks-and-mortar solutions without functional<br> solutions.
+							</p>
+							<a href="#" class="button">Více o mobile</a>
+						</div> <!-- !slide3 -->
+					</div> <!-- !carousel3 -->
+				</div> <!-- !slick -->
+			</div> <!-- !carousels -->
+			<div class="header"> <!-- header -->
+				<div class="quick-news"> <!-- quick-news -->
+					<span class="date">Před 12 dny</span>
+					<span class="quick-view">Jiří Štěpán z Etnetera Activate poodhalil zákulisí vykutálené náborové kampaně.</span>
+					<span class="read"><a href="#">Přečíst</a></span>
+				</div> <!-- !quick-news -->
+			</div> <!-- !header -->
+			<div class="main-section-bg"> <!-- main-section-bg -->
+				<div class="main-section"> <!-- main-section -->
+					<div class="primary-section"> <!-- primary-section -->
+						<h1>Fronty u kávovaru</h1>
+						<img src="img/coffee-cup.png" alt="Šálek kávy s rozsypanými kávovými zrnky kolem." id="image-left">
+						<p id="paragraph-right1">
+							Arabica latte shop macchiato doppio coffee steamed. Brewed, macchiato grounds medium, eu breve grinder frappuccino americano. Pumpkin spice, caffeine chicory dark medium arabica macchiato instant rich. Et, single shot aged half and half lungo whipped, cinnamon cappuccino whipped id mazagran.
+						</p>
+						<p id="paragraph-right2">
+							<span class="panna">Con panna</span> sugar macchiato so macchiato in skinny variety mug that. A plunger pot acerbic, brewed medium java aromatic coffee. At mocha wings acerbic beans medium saucer. Cup extra sit half and half robust java crema turkish.
+						</p>
+						<p class="clear-p">
+							Medium aroma cream qui medium coffee arabica, caffeine et <span class="tooltip caramelization">caramelization cup</span> plunger pot. Eu, plunger pot organic dark, cinnamon, redeye wings fair trade whipped lungo crema. Carajillo caramelization americano, plunger pot, filter coffee foam siphon roast and java.
+						</p>
+						<p class="clear-p">
+							Galão a, breve, at white, latte variety irish at flavour barista. Half and half, so, sweet, <span class="tooltip espresso">affogato galão</span>, half and half sugar irish trifecta chicory. Single origin, espresso, con panna french press et steamed robust.
+						</p>
+					</div> <!-- !primary-section -->
+					<div class="secondary-section"> <!-- secondary-section -->
+						<div class="wrapperA"> <!-- wrapperA -->
+							<img src="img/logograph.png" alt="Logo u grafu" class="logo">
+							<img src="img/clock.png" alt="Hodiny" class="clock">
+							<div id="chartA" class="charts"></div> <!-- chartA + !chartA -->
+							<div class="legendaA"> <!-- legendaA -->
+								<span class="l1A">bez fronty</span>
+								<span class="l2A">možnost fronty</span>
+								<span class="l3A">pravděpodobné čekání ve frontě</span>
+							</div> <!-- !legendaA -->
+						</div> <!-- !wrapperA -->
+						<div class="wrapperB"> <!-- wrapperB -->
+							<img src="img/logograph.png" alt="Logo u grafu" class="logo">
+							<img src="img/clock.png" alt="Hodiny" class="clock">
+							<div id="chartB" class="charts"></div> <!-- chartB + !chartB -->
+							<div class="legendaB"> <!-- legendaB -->
+								<span class="l1B">bez fronty</span>
+								<span class="l2B">možnost fronty</span>
+								<span class="l3B">pravděpodobné čekání ve frontě</span>
+							</div> <!-- !legendaB -->
+						</div> <!-- !wrapperB -->
+					</div> <!-- !secondary-section -->
+					<section class="ternary-section"> <!-- ternary-section -->
+						<h2>Více o kávě</h2>
+						<div class="left-section"> <!-- left-section -->
+							<p>
+								Shop robust café au lait, cortado that, kopi-luwak skinny sweet crema fair <span class="trade">trade aged</span>, cultivar medium decaffeinated medium siphon crema cappuccino macchiato froth roast cinnamon aroma crema. Con panna americano skinny blue mountain decaffeinated, trifecta barista sugar, in saucer in filter that. Roast sit, robusta aged spoon, filter beans blue mountain milk crema dark eu <span class="tooltip drowned">affogato barista</span> caffeine grinder, aromatic instant cup as robusta steamed doppio. Aftertaste, kopi-luwak, cappuccino siphon beans galão decaffeinated mug, froth half and <span class="java-roast">half eu java roast</span>, lungo, id fair trade organic doppio filter instant carajillo.
+							</p>
+							<p>
+								Id siphon and, java, cappuccino milk cortado, siphon macchiato galão a irish flavour. Carajillo irish percolator steamed, medium galão latte, mocha est, medium, iced cappuccino americano, caramelization ristretto, in latte, flavour cup roast trifecta aged. Variety single origin steamed, at, galão bar turkish con panna cream aroma variety carajillo 
+							</p>
+						</div> <!-- !left-section -->
+					</section> <!-- !ternary-section -->
+					<div class="fourth-section right-section"> <!-- fourth-section -->
+						<p>
+							cinnamon. Iced, single shot, est cup shop viennese dark crema macchiato wings single shot plunger pot foam aftertaste so to go white at acerbic a aftertaste.
+						</p>
+						<p>
+							Irish carajillo decaffeinated instant, pumpkin spice as, cup, dripper strong breve, est white crema viennese latte. Irish cup medium body organic, white americano galão plunger pot coffee, robust, carajillo, steamed, cream, java, cinnamon mazagran so caffeine latte flavour. <span class="turkish-iced">Shop, turkish iced</span> qui that steamed sweet, mazagran, macchiato est robusta spoon as, rich eu crema, chicory foam single shot organic sugar galão seasonal trifecta. Viennese half and half organic aged <span class="tooltip extraction">extraction cup</span>, espresso irish latte mug grinder turkish variety.
+						</p>
+					</div> <!-- !fourth-section -->
+				</div> <!-- !main-section -->
+			</div> <!-- !main-section-bg -->
+			<div class="footer"> <!-- footer -->
+				<footer>
+					<span class="copyright copy-1">Copyright</span>
+					<span class="copyright copy-2">&copy; 2015 Etnetera</span>
+					<span class="etnetera-group">Jsme hrdým členem <a href="#" class="etnetera">Etnetera Group</a></span>
+				</footer>
+			</div>
+		</div> <!-- !footer -->
+
+		<script src="js/slick/slick.min.js"></script>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript" src="js/tipped/js/tipped/tipped.js"></script>
+		<script type="text/javascript" src="js/active.js"></script>
+		<script type="text/javascript" src="js/carousel.js"></script>
+		<script type="text/javascript" src="js/tooltip.js"></script>
+		<script type="text/javascript" src="js/charts.js"></script>
+	</body>
+</html>

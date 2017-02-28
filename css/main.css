@@ -1,0 +1,1566 @@
+/* Custom CSS on top of normalize.css */
+
+/* Author: © - Anna Drevikovska */
+
+/*-------------------------------------------
+	MOBILE SMALL - MEDIUM VERSION:
+-------------------------------------------*/
+
+/*-------------------------------------------
+		ELEMENTARY ATTRIBUTES:
+-------------------------------------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*-------------------------------------------
+		TOOLTIP:
+-------------------------------------------*/
+
+.tooltip {
+	color: #e84d0f;
+	cursor: pointer;
+}
+
+.tooltip:hover {
+	color: #000;
+	border-bottom: 1px dashed #e84d0f;
+}
+
+/*-------------------------------------------
+		MAIN CONTAINER:
+-------------------------------------------*/
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*-------------------------------------------
+		NAVIGATION:
+-------------------------------------------*/
+
+.container .navigation nav {
+	z-index: 3;
+	padding-top: 35px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.container .navigation nav span img {
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.container .navigation nav ul {
+	margin: 0;
+	padding-left: 0;
+	display: block;
+	border-top: 1px solid #d0d0d0;
+	background-color: #e0e0e0;
+	padding-top: 39px;
+	padding-bottom: 20px;
+}
+
+.container .navigation nav ul li {
+	text-transform: uppercase;
+	list-style: none;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.container .navigation nav ul li a {
+	text-decoration: none;
+	color: #1d1d1b;
+}
+
+.container .navigation nav ul li .active {
+	color: #e84d0f;
+	border-bottom: 1px solid #e84d0f;
+	padding-bottom: 3px;
+}
+
+/*-------------------------------------------
+		NAVIGATION - PSEUDO CLASSES:
+-------------------------------------------*/
+
+.container .navigation nav ul li a:hover {
+	color: #e84d0f;
+}
+
+/*-------------------------------------------
+		CAROUSEL:
+-------------------------------------------*/
+
+.container #carousels {
+	background-color: #e0e0e0;
+}
+
+.container .carousel {
+	background: url('../img/carousel-img1.png');
+	max-width: 93.75%;
+	margin: 0 auto;
+	background-position: center;
+    background-size: cover;
+    outline: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.container .carousel .slide {
+	height: 454px;
+	max-width: 76.66666666666667%;
+	margin: 0 auto;
+	padding-top: 90px;
+}
+
+.container .carousel .slide h1 {
+	font-size: 2em;
+	font-weight: 200;
+	text-shadow: 1.286px 1.532px 3px rgba(0, 0, 0, 0.75);
+	margin: 0;
+	margin-right: 188px;
+	margin-top: -40px;
+}
+
+.container .carousel .slide p {
+	font-weight: 200;
+	margin-top: 1.2em;
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.container .carousel .slide .button {
+    background-color: #fff;
+    padding: 12px 65px;
+    color: #e84d0f;
+    border-radius: 65px;
+    border: 1px solid #e84d0f;
+    margin-right: 151px;
+    margin-left: -35px;
+    cursor: pointer;
+	text-decoration: none;
+	color: #e84d0f;
+}
+
+.slick-slider {
+    margin: 0 auto;
+    margin-top: -77px;
+    text-align: center;
+}
+
+.slick-next {
+	z-index: 1;
+	position: relative;
+    float: right;
+    font-size: 4em;
+    margin-right: 17px;
+    top: -261px;
+    cursor: pointer;
+}
+
+.slick-prev {
+	z-index: 1;
+    position: relative;
+    font-size: 4em;
+    top: 260px;
+    margin-left: -257px;
+    cursor: pointer;
+}
+
+/*-------------------------------------------
+		CAROUSEL - PSEUDO CLASSES:
+-------------------------------------------*/
+
+.container .carousel .slide .button:hover {
+	box-shadow: 1.286px 1.532px 3px rgba(0, 0, 0, 0.75);
+	background-color: rgba(232, 77, 15, 0.7);
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.slick-next:active,
+.slick-next:hover {
+	color: #e84d0f;
+}
+
+.slick-prev:active,
+.slick-prev:hover {
+	color: #e84d0f;
+}
+
+/*-------------------------------------------
+		HEADER:
+-------------------------------------------*/
+
+.container .header .quick-news {
+	text-align: center;
+	padding: 25px;
+}
+
+.container .header .quick-news .date {
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	font-weight: 200;
+	color: #7d7d7d;
+	display: block;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.container .header .quick-news .quick-view {
+	display: block;
+	font-size: 1rem;
+	font-weight: 200;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.container .header .quick-news .read a {
+	text-decoration: none;
+	color: #e84d0f;
+	font-weight: 200;
+	font-size: 1em;
+	display: block;
+}
+
+/*-------------------------------------------
+		HEADER - PSEUDO CLASSES:
+-------------------------------------------*/
+
+.container .header .quick-news .read a:hover {
+	font-weight: 400;
+}
+
+/*-------------------------------------------
+		MAIN SECTION:
+-------------------------------------------*/
+
+.container .main-section-bg {
+	background-color: #f2f2f2;
+}
+
+.container .main-section-bg .main-section {
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px;
+	overflow: hidden;
+}
+
+.container .main-section-bg .main-section p {
+	line-height: 1.2;
+	text-align: left;
+}
+
+/*-------------------------------------------
+		MAIN SECTION - PRIMARY SECTION:
+-------------------------------------------*/
+
+.container .main-section-bg .main-section .primary-section #image-left {
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+
+.container .main-section-bg .main-section .primary-section #paragraph-right1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.container .main-section-bg .main-section .primary-section #paragraph-right2 .panna {
+	font-weight: bold;
+}
+
+.container .main-section-bg .main-section .primary-section h1 {
+	font-size: 2rem;
+	line-height: 1.2;
+	margin: 0;
+	padding-bottom: 20px;
+	font-weight: 200;
+}
+
+/*-------------------------------------------
+		MAIN SECTION - SECONDARY SECTION:
+-------------------------------------------*/
+
+.charts {
+	width: 99%;
+	min-height: 400px;
+}
+
+.container .main-section-bg .main-section .secondary-section #chartA {
+	margin-top: -60px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.container .main-section-bg .main-section .secondary-section #chartB {
+	margin-top: -60px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaA {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaB {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaA .l1A {
+	margin-right: 15px;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaA .l2A {
+	margin-right: 15px;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaB .l1B {
+	margin-right: 15px;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaB .l2B {
+	margin-right: 15px;
+}
+
+.container .main-section-bg .main-section .secondary-section .logo {
+	position: relative;
+	left: 23px;
+	top: 267px;
+	z-index: 5;
+	height: 50px;
+	width: 20px;
+}
+
+.container .main-section-bg .main-section .secondary-section .clock {
+	position: relative;
+	left: 1px;
+	top: 298px;
+	z-index: 5;
+	height: 17px;
+	width: 17px;
+}
+
+/*-------------------------------------------
+		MAIN SECTION - SECONDARY SECTION - PSEUDO:
+-------------------------------------------*/
+
+.container .main-section-bg .main-section .secondary-section .legendaA .l1A::before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 7.5px;
+	margin-right: 10px;
+	background-color: #ffc59b;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaA .l2A::before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 7.5px;
+	margin-right: 10px;
+	background-color: #f88c6c;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaA .l3A::before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 7.5px;
+	margin-right: 10px;
+	background-color: #e64e21;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaB .l1B::before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 7.5px;
+	margin-right: 10px;
+	background-color: #ffc59b;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaB .l2B::before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 7.5px;
+	margin-right: 10px;
+	background-color: #f88c6c;
+}
+
+.container .main-section-bg .main-section .secondary-section .legendaB .l3B::before {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 7.5px;
+	margin-right: 10px;
+	background-color: #e64e21;
+}
+
+/*-------------------------------------------
+		MAIN SECTION - TERNARY SECTION:
+-------------------------------------------*/
+
+.container .main-section-bg .main-section .ternary-section h2 {
+	font-size: 1.75em;
+	line-height: 1.2;
+	margin: 0;
+	font-weight: 200;
+}
+
+.container .main-section-bg .main-section .ternary-section .left-section p .trade {
+	font-weight: bold;
+}
+
+.container .main-section-bg .main-section .ternary-section .left-section p .java-roast {
+	font-weight: bold;
+}
+
+/*-------------------------------------------
+		MAIN SECTION - FOURTH SECTION:
+-------------------------------------------*/
+
+.container .main-section-bg .main-section .right-section p .turkish-iced {
+	font-weight: bold;
+}
+
+/*-------------------------------------------
+		FOOTER:
+-------------------------------------------*/
+
+.footer footer {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	clear: both;
+}
+
+.footer footer .copyright {
+	display: block;
+}
+
+.footer footer .copy-1 {
+	text-transform: uppercase;
+	font-size: 0.875rem;
+	font-weight: bold;
+	color: #e84d0f;
+	margin-bottom: 15px;
+}
+
+.footer footer .copy-2 {
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.footer footer .etnetera-group {
+	display: block;
+	font-weight: 200;
+}
+
+.footer footer .etnetera {
+	color: #e84d0f;
+	text-decoration: none;
+}
+
+.footer footer {
+	text-align: center;
+}
+
+/*-------------------------------------------
+		FOOTER - PSEUDO CLASSES:
+-------------------------------------------*/
+
+.footer footer .etnetera:hover {
+	font-weight: 400;
+}
+
+/*-------------------------------------------
+		MOBILE MEDIUM VERSION:
+-------------------------------------------*/
+
+@media (min-width: 375px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.container .navigation nav ul {
+		font-size: 1.1em;
+	}
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		font-size: 2em;
+		margin: 0;
+		margin-right: 132px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		margin-left: 0;
+		width: 66%;
+	}
+
+	.container .carousel .slide .button {
+		margin-top: 3em;
+		margin-right: 100px;
+		margin-left: -35px;
+	}
+
+	.slick-prev {
+		margin-left: -321px;
+	}
+}
+
+/*-------------------------------------------
+		MOBILE LARGE VERSION:
+-------------------------------------------*/
+
+@media (min-width: 425px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.container .navigation nav ul {
+		font-size: 1.175em;
+	}
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: 68px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 82%;
+	}
+
+	.container .carousel .slide .button {
+		margin-top: 6em;
+		margin-right: 38px;
+		margin-left: -35px;
+	}
+
+	.slick-prev {
+		margin-left: -369px;
+	}
+}
+
+@media (min-width: 500px) {
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: -5px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 101%;
+	}
+
+	.container .carousel .slide .button {
+		margin-right: 38px;
+		margin-left: 40px;
+	}
+
+	.slick-prev {
+		margin-left: -441px;
+	}
+}
+
+@media (min-width: 504px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.container .navigation nav ul {
+		font-size: 1.2em;
+	}
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container #carousels {
+		border-bottom: 1px solid #d0d0d0;
+	}
+
+	.slick-slider {
+		width: 75%;
+	}
+
+	.container .carousel .slide h1 {
+		margin-right: 124px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 67%;
+	}
+
+	.container .carousel .slide .button {
+		margin-top: 3em;
+		margin-right: 117px;
+		margin-left: -18px;
+	}
+
+	.slick-prev {
+		margin-left: -326px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-left: 80px;
+		margin-bottom: 5px;
+	}
+
+	.container .header .quick-news .quick-view {
+		margin-left: 80px;
+		margin-bottom: 5px;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - PRIMARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .primary-section h1 {
+		font-size: 2.5rem;
+	}
+}
+
+@media (min-width: 545px) {
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: 98px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 75%;
+	}
+
+	.container .carousel .slide .button {
+		margin-top: 4em;
+		margin-right: 117px;
+		margin-left: 15px;
+	}
+
+	.slick-prev {
+		margin-left: -350px;
+	}
+}
+
+@media (min-width: 580px) {
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: 62px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 84%;
+	}
+
+	.container .carousel .slide .button {
+		margin-top: 6em;
+		margin-right: 85px;
+		margin-left: 15px;
+	}
+
+	.slick-prev {
+		margin-left: -377px;
+	}
+}
+
+@media (min-width: 645px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.container .navigation nav ul {
+		font-size: 1.3em;
+	}	
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: 12px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 96%;
+	}
+
+	.container .carousel .slide .button {
+		margin-right: 44px;
+		margin-left: 15px;
+	}
+
+	.slick-prev {
+		margin-left: -426px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-left: 90px;
+	}
+}
+
+@media (min-width: 670px) {
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: 2px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 99%;
+	}
+
+	.container .carousel .slide .button {
+		margin-right: 23px;
+		margin-left: 15px;
+	}
+
+	.slick-prev {
+		margin-left: -441px;
+	}
+}
+
+@media (min-width: 673px) {
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.slick-slider {
+		width: 65%;
+	}
+
+	.container .carousel .slide h1 {
+		margin-right: 59px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 85%;
+	}
+
+	.container .carousel .slide .button {
+		margin-right: 88px;
+		margin-left: 15px;
+	}
+
+	.slick-prev {
+		margin-left: -383px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-left: 130px;
+		margin-bottom: 5px;
+	}
+
+	.container .header .quick-news .quick-view {
+		margin-left: 130px;
+		margin-bottom: 5px;
+	}
+}
+
+@media (min-width: 750px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.container .navigation nav ul {
+		font-size: 1.4em;
+	}
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: 15px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 95%;
+	}
+
+	.container .carousel .slide .button {
+		margin-right: 42px;
+		margin-left: 15px;
+	}
+
+	.slick-prev {
+		margin-left: -431px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-left: 150px;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - PRIMARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .primary-section #image-left {
+		margin-bottom: 20px;
+		margin-right: 20px;
+		float: left;
+		max-width: 100%;
+	}
+
+	.container .main-section-bg .main-section .primary-section .clear-p {
+		clear: left;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - TERNARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .ternary-section .left-section {
+		float: left;
+		width: 45%;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - FOURTH SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .right-section {
+		float: right;
+		width: 45%;
+	}
+}
+
+/*-------------------------------------------
+		TABLET VERSION:
+-------------------------------------------*/
+
+@media (min-width: 768px) {
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.slick-slider {
+		width: 65.5%;
+	}
+
+	.container .carousel .slide h1 {
+		margin-right: -3px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 100%;
+	}
+
+	.slick-prev {
+		margin-left: -450px;
+	}
+
+	.container .carousel .slide .button {
+		margin-right: 38px;
+		margin-left: 26px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-left: 144px;
+		margin-bottom: 5px;
+	}
+
+	.container .header .quick-news .quick-view {
+		margin-left: 144px;
+		margin-bottom: 5px;
+	}
+
+	.container .header .quick-news .read a {
+		margin-right: 6px;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - PRIMARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .primary-section h1 {
+		font-size: 3rem;
+	}
+
+	.container .main-section-bg .main-section .primary-section #image-left {
+		float: left;
+		margin-right: 20px;
+	}
+
+	.container .main-section-bg .main-section .primary-section .clear-p {
+		clear: left;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - SECONDARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .secondary-section .logo {
+		left: 105px;
+	}
+
+	.container .main-section-bg .main-section .secondary-section .clock {
+		left: 82px;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - TERNARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .ternary-section h2 {
+		font-size: 2.25em;
+	}
+
+	.container .main-section-bg .main-section .ternary-section .left-section {
+		float: left;
+		width: 45%;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - FOURTH SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .right-section {
+		float: right;
+		width: 45%;
+	}
+}
+
+@media (min-width: 773px) {
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.slick-slider {
+		width: 57%;
+	}
+
+	.container .carousel .slide h1 {
+		margin-right: 55px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 85%;
+	}
+
+	.container .carousel .slide .button {
+		margin-right: 93px;
+		margin-left: 26px;
+	}
+
+	.slick-prev {
+		margin-left: -378px;
+	}
+
+	.slick-next {
+		top: -263px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-left: 169px;
+	}
+
+	.container .header .quick-news .quick-view {
+		margin-left: 169px;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - PRIMARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .primary-section h1 {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 835px) {
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: 31px;
+		margin-top: -40px;
+	}
+
+	.container .carousel .slide p {
+		width: 92%;
+	}
+
+	.slick-prev {
+		margin-left: -412px;
+	}
+
+	.container .carousel .slide .button {
+		margin-right: 57px;
+		margin-left: 26px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-left: 185px;
+	}
+
+	.container .header .quick-news .quick-view {
+		margin-left: 185px;
+	}
+}
+
+@media (min-width: 885px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.container .navigation nav ul {
+		font-size: 1.5em;
+	}
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: 2px;
+	}
+
+	.container .carousel .slide p {
+		width: 100%;
+	}
+
+	.slick-prev {
+		margin-left: -446px;
+	}
+
+	.container .carousel .slide .button {
+		margin-right: 24px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-left: 200px;
+	}
+
+	.container .header .quick-news .quick-view {
+		margin-left: 200px;
+	}
+}
+
+@media (min-width: 943px) {
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.container .carousel .slide h1 {
+		margin-right: -9px;
+	}
+
+	.container .carousel .slide p {
+		width: 104%;
+	}
+
+	.slick-prev {
+		margin-left: -474px;
+	}
+
+	.container .carousel .slide .button {
+		margin-top: 8em;
+		margin-right: 31px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-left: 211px;
+	}
+
+	.container .header .quick-news .quick-view {
+		margin-left: 211px;
+	}
+}
+
+/*-------------------------------------------
+	LAPTOP VERSION:
+-------------------------------------------*/
+
+@media (min-width: 1024px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.container .navigation nav ul {
+		font-size: 1em;
+	}
+
+	.container .navigation nav {
+		position: relative;
+		padding-left: 40px;
+		padding-right: 40px;
+		text-align: left;
+		margin-bottom: 0;
+		background-color: #fff;
+	}
+
+	.container .navigation nav span img {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		margin-bottom: 0;
+	}
+
+	.container .navigation nav ul {
+		padding-left: 40px;
+		display: inline-block;
+		float: right;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: #000;
+		padding-bottom: 0;
+		padding-top: 0;
+		border-top: none;
+		background-color: #fff;
+	}
+
+	.container .navigation nav ul li {
+		display: inline-block;
+		margin-right: 15px;
+		margin-bottom: 0;
+	}
+
+	.container .navigation nav ul li a:after {
+		content: '';
+		display: block;
+		margin-top: 5px;
+		height: 1px;
+		width: 0;
+		background: transparent;
+		transition: width .5s ease, background-color .5s ease;
+	}
+
+	.container .navigation nav ul li a:hover:after {
+		width: 100%;
+		background: #000;
+	}
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.slick-slider {
+		width: 93.75%;
+		text-align: left;
+		margin-top: -87px;
+	}
+
+	.container #carousels {
+		background-color: #fff;
+		border-bottom: none;
+	}
+
+	.container .carousel {
+		margin-top: -5px;
+		border-top: none;
+	}
+
+	.container .carousel .slide h1 {
+		font-size: 3em;
+		margin: 0;
+		margin-right: 0;
+		margin-top: 0;
+	}
+
+	.container .carousel .slide p {
+		width: 100%;	
+	}
+
+	.slick-next {
+		font-size: 5em;
+		margin-right: 30px;
+		top: -276px;
+	}
+
+	.slick-prev {
+	    font-size: 5em;
+	    margin-left: 30px;
+	}
+
+	.container .carousel .slide .button {
+		float: right;
+		margin-top: 4em;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news .date {
+		margin-right: 10px;
+		margin-left: 0;
+		display: inline-block;
+		margin-bottom: 0;
+	}
+
+	.container .header .quick-news .quick-view {
+		margin-right: 20px;
+		margin-left: 0;
+		display: inline-block;
+		margin-bottom: 0;
+	}
+
+	.container .header .quick-news .read a {
+		display: inline-block;
+		margin-right: 0;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section {
+		width: 75%;
+		padding: 20px;
+		margin: 0 auto;
+		margin-left: 128px;
+	}
+
+	.container .main-section-bg .main-section p {
+		word-spacing: 1px;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - PRIMARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .primary-section h1 {
+		font-size: 3em;
+	}
+
+	.container .main-section-bg .main-section .primary-section #image-left {
+		float: left;
+		margin-right: 20px;
+	}
+
+	.container .main-section-bg .main-section .primary-section .clear-p {
+		clear: left;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - SECONDARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .secondary-section .logo {
+		left: 65px;
+		top: 267px;
+		height: 80px;
+		width: 50px;
+	}
+
+	.container .main-section-bg .main-section .secondary-section .clock {
+		left: 26px;
+		top: 307px;
+		height: 21px;
+		width: 21px;
+	}
+
+	.container .main-section-bg .main-section .secondary-section .legendaA .l1A {
+		margin-right: 25px;
+	}
+
+	.container .main-section-bg .main-section .secondary-section .legendaA .l2A {
+		margin-right: 25px;
+	}
+
+	.container .main-section-bg .main-section .secondary-section .legendaB .l1B {
+		margin-right: 25px;
+	}
+
+	.container .main-section-bg .main-section .secondary-section .legendaB .l2B {
+		margin-right: 25px;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - TERNARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .ternary-section .left-section {
+		float: left;
+		width: 45%;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - FOURTH SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .right-section {
+		float: right;
+		width: 45%;
+	}
+
+	/*-------------------------------------------
+		FOOTER:
+	-------------------------------------------*/
+
+	.footer footer .copy-1 {
+		margin-bottom: 10px;
+	}
+}
+
+/*-------------------------------------------
+	LAPTOP LARGE VERSION:
+-------------------------------------------*/
+
+@media (min-width: 1440px) {
+
+	/*-------------------------------------------
+		MAIN SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section {
+		margin-left: 160px;
+	}
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.slick-next {
+		top: -279px;
+	}
+}
+
+/*-------------------------------------------
+	4K VERSION:
+-------------------------------------------*/
+
+@media (min-width: 2560px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.container .navigation nav {
+		padding-left: 255px;
+		padding-right: 255px;
+		padding-top: 55px;
+	}
+
+	.container .navigation nav ul {
+		font-size: 1.4em;
+	}
+
+	.container .navigation nav span img {
+		height: 60px;
+	}
+
+	/*-------------------------------------------
+		CAROUSEL:
+	-------------------------------------------*/
+
+	.slick-slider {
+		width: 80%;
+		margin-top: -127px;
+	}
+
+	.container .carousel .slide h1 {
+		font-size: 4em;
+	}
+
+	.container .carousel .slide p {
+		font-size: 2em;
+	}
+
+	.container .carousel .slide .button {
+		margin-top: 4em;
+		font-size: 1.4em;
+		margin-right: 200px;
+		margin-bottom: 100px;
+	}
+
+	.slick-prev {
+		font-size: 7em;
+		top: 414px;
+	}
+
+	.slick-next {
+		font-size: 7em;
+		top: -363px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.container .header .quick-news {
+		margin-left: 190px;
+	}
+
+	.container .header .quick-news .date {
+		margin-right: 20px;
+		font-size: 1.3em;
+	}
+
+	.container .header .quick-news .quick-view {
+		margin-right: 30px;
+		font-size: 1.5em;
+	}
+
+	.container .header .quick-news .read a {
+		font-size: 1.5em;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section {
+		margin-left: 340px;
+	}
+
+	.container .main-section-bg .main-section p {
+		font-size: 2em;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - PRIMARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .primary-section h1 {
+		font-size: 4rem;
+	}
+
+	.container .main-section-bg .main-section .primary-section #image-left {
+		width: 35%;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - SECONDARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .secondary-section .logo {
+		left: 150px;
+	}
+
+	.container .main-section-bg .main-section .secondary-section .clock {
+		left: 110px;
+	}
+
+	.container .main-section-bg .main-section .secondary-section .legendaA {
+		font-size: 1.7em
+	}
+
+	.container .main-section-bg .main-section .secondary-section .legendaB {
+		font-size: 1.7em;
+	}
+
+	/*-------------------------------------------
+		MAIN SECTION - TERNARY SECTION:
+	-------------------------------------------*/
+
+	.container .main-section-bg .main-section .ternary-section h2 {
+		font-size: 3.25em;
+	}
+
+	/*-------------------------------------------
+		FOOTER:
+	-------------------------------------------*/
+
+	.footer footer .copy-1 {
+		font-size: 1.5em;
+	}
+
+	.footer footer .copy-2 {
+		font-size: 1.3em;
+	}
+
+	.footer footer .etnetera-group {
+		font-size: 1.5em;
+	}
+}
